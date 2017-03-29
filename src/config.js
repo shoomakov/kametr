@@ -9,7 +9,7 @@
 
 /* eslint-disable max-len */
 
-export const port = process.env.PORT || 3000;
+export const port = process.env.PORT || 8080;
 export const host = process.env.WEBSITE_HOSTNAME || `localhost:${port}`;
 
 export const databaseUrl = process.env.DATABASE_URL || 'sqlite:database.sqlite';
@@ -18,9 +18,17 @@ export const analytics = {
 
   // https://analytics.google.com/
   google: {
-    trackingId: process.env.GOOGLE_TRACKING_ID, // UA-XXXXX-X
+    trackingId: 'UA-89956627-1', //process.env.GOOGLE_TRACKING_ID, // UA-XXXXX-X
   },
 
+};
+
+export const metrika = {
+
+  // https://metrika.yandex.ru/
+  yandex: {
+    trackingId: '41942969',
+  },
 };
 
 export const auth = {

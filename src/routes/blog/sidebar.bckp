@@ -1,0 +1,145 @@
+<div id="sidebar" className="col-md-4">
+  {/* Search */}
+  <div className="mad_widget widget_search">
+    <form>
+      <input type="text" placeholder="Search" />
+      <button type="button" />
+    </form>
+  </div>
+  {/* Categories */}
+  <div className="mad_widget widget_categories">
+    <h5 className="widget_title">Categories</h5>
+    <ul>
+      <li><a href="#">Photoshop Designs<span>#5</span></a></li>
+      <li><a href="#">CMS Web Templates<span>#3</span></a></li>
+      <li><a href="#">HTML Templates<span>#6</span></a></li>
+      <li><a href="#">Graphic Designs<span>#4</span></a></li>
+      <li><a href="#">WordPress<span>#8</span></a></li>
+    </ul>
+  </div>
+  {/* Recent Posts */}
+  <div className="mad_widget widget_posts">
+    <h5 className="widget_title">Recent posts</h5>
+    <div className="mad_post_section">
+      <div className="mad_post_item">
+        <figure><a href="#"><img src="images/70x70_img1.jpg" alt /></a></figure>
+        <div className="post_text_block">
+          <a href="#">Autoplay Image Slider Post Type</a>
+        </div>
+      </div>
+      <div className="mad_post_item">
+        <figure><a href="#"><img src="images/70x70_img2.jpg" alt /></a></figure>
+        <div className="post_text_block">
+          <a href="#">Static Image Blog Post Type</a>
+        </div>
+      </div>
+      <div className="mad_post_item">
+        <figure><a href="#"><img src="images/70x70_img3.jpg" alt /></a></figure>
+        <div className="post_text_block">
+          <a href="#">Playble Audio Blog Post Type</a>
+        </div>
+      </div>
+      <div className="mad_post_item">
+        <figure><a href="#"><img src="images/70x70_img4.jpg" alt /></a></figure>
+        <div className="post_text_block">
+          <a href="#">Autoplay Video Blog Post Type</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* Quote */}
+  <div className="mad_widget widget_quote">
+    <h5 className="widget_title">Quote</h5>
+    <blockquote>
+      “Design is not just what it
+      Looks like and Feels like.
+      Design is how it Works.”
+    </blockquote>
+    <div className="mad_blockquote_author"> - Steve Jobs</div>
+  </div>
+  {/* Instagram */}
+  <div className="mad_widget widget_instagram">
+    <h5 className="widget_title">Instagram</h5>
+    <ul data-instagram={6} data-instagram-username="mrgicucaus" className="instagram-feed" />
+  </div>
+  {/* Tags */}
+  <div className="mad_widget widget_tags">
+    <h5 className="widget_title">Tags</h5>
+    <div>
+      <a href="#" className="tag">SPA</a>
+      <a href="#" className="tag">PSD</a>
+      <a href="#" className="tag">WordPress</a>
+      <a href="#" className="tag">Salon</a>
+      <a href="#" className="tag">ThemeForest</a>
+    </div>
+  </div>
+  {/* Calendar */}
+  <div className="mad_widget widget_calendar">
+    <h5 className="widget_title">Calendar</h5>
+    <table>
+      <thead>
+        <tr>
+          {/*titles for td*/}
+          <th colSpan={7}>
+            March 2016
+          </th>
+        </tr>
+      </thead>
+      <tbody><tr>
+          <td>M</td>
+          <td>T</td>
+          <td>W</td>
+          <td>T</td>
+          <td>F</td>
+          <td>S</td>
+          <td>S</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td className="link"><a href="#">2</a></td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td className="link current"><a href="#">11</a></td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td className="link"><a href="#">15</a></td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td className="link"><a href="#">26</a></td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td className="link"><a href="#">29</a></td>
+          <td>30</td>
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+        </tr>
+      </tbody></table>
+    <a href="#" className="mad_calendar_month">« Nov</a>
+  </div>
+</div>

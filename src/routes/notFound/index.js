@@ -8,10 +8,9 @@
  */
 
 import React from 'react';
-import Layout from '../../components/Layout';
 import NotFound from './NotFound';
 
-const title = 'Page Not Found';
+const title = 'Страница не найдена';
 
 export default {
 
@@ -20,8 +19,9 @@ export default {
   action() {
     return {
       title,
-      component: <Layout><NotFound title={title} /></Layout>,
+      component: <NotFound title={title}/>,
       status: 404,
+      note: '404',
     };
   },
 

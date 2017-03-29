@@ -1,0 +1,64 @@
+/*----------- Social icons --------------*/
+
+.social_icon_list ul{margin-bottom: -5px;}
+
+  .social_icon_list ul li{
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  .social_icon_list ul li:not(:last-child){margin-right: 5px;}
+
+    .social_icon_list ul li a{
+      display: block;
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+      color: #fff;
+      background: #ea3032;
+      font-family: 'fontello';
+      text-align: center;
+      font-size: 16px;
+      overflow: hidden;
+      -webkit-box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow:    inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2);
+      box-shadow:         inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .social_icon_list ul li a:before{line-height: 40px;}
+
+    .social_icon_list ul li .icon-facebook{background: #325c94;}
+
+    .social_icon_list ul li .icon-twitter{background: #00abdc;}
+
+    .social_icon_list ul li .icon-gplus{background: #ea3032;}
+
+    .social_icon_list ul li .icon-tumblr{background: #41556a;}
+
+    .social_icon_list ul li .icon-instagram{background: #0073b2;}
+
+    .social_icon_list ul li .icon-pinterest{background: #d9031f;}
+
+  .social_icon_list.style2 ul li:not(:last-child){margin-right: 15px;}
+
+    .social_icon_list.style2 ul li a{
+      font-size: 12px;
+      width: auto;
+      height: auto;
+      border: none;
+      background: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .social_icon_list.style2 ul li a:before{line-height: inherit;}
+
+    .social_icon_list.style2 ul li a:hover{color: #efbb20!important;}
+
+  .social_icon_list.type2 ul li a{
+    color: #818190;
+    font-size: 16px;
+  }
+
+  .header_2 .social_icon_list.type2 ul li a{color: #fff;}

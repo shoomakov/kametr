@@ -11,7 +11,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Contact from './Contact';
 
-const title = 'Contact Us';
+const title = 'Контакты';
 
 export default {
 
@@ -20,7 +20,9 @@ export default {
   action() {
     return {
       title,
-      component: <Layout><Contact title={title} /></Layout>,
+      component: <Contact title={title} />,
+      note: 'Contact',
+      description: 'Вы можете ознакомиться с месторасположением компании "Каждый Метр" и графиком работы. Ниже приведены банковские реквизиты.',
     };
   },
 
