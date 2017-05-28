@@ -19,11 +19,14 @@ class Testimonials extends React.Component {
                         {/* Carousel Item */}
                         <blockquote>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod dignissim massa ut venenatis. Vivamus eleifend sem id ligula sollicitudin feugiat.
+                            Хочу порекомендовать фирму "Каждый Метр", как надежного подрядчика
+                            на объекты любой сложности. Обращался уже дважды - первый раз они мне делали
+                            "косметику" в квартире. Это было проверочное задание. Затем,
+                            я им доверил ремонт в коттедже. Ребята не подвели и сделали мне шикарную отделку.
+                            Если нужно качество, то обращайтесь только сюда.
                           </p>
                           <div className="mad_author style2">
-                            <h3 className="mad_title_style2">Бобба Фетт</h3>
-                            <span> Founder and CEO</span>
+                            <h3 className="mad_title_style2">Антон Гришанов</h3>
                           </div>
                         </blockquote>
                         {/* /Carousel Item */}
@@ -34,11 +37,15 @@ class Testimonials extends React.Component {
                         {/* Carousel Item */}
                         <blockquote>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod dignissim massa ut venenatis. Vivamus eleifend sem id ligula sollicitudin feugiat.
+                            Компания "Каждый Метр" произвела у меня ремонт санузла.
+                            Требовалось провести демонтаж стенки и объединить ванную с туалетом,
+                            а также сделать полную отделку. Понравилось, что весь мусор
+                            сразу складывали в мешки и выносили. Особо отмечу работу
+                            плиточника - сделал все очень точно и красиво, это при том,
+                            что запил на 45 градусов требовался.
                           </p>
                           <div className="mad_author style2">
-                            <h3 className="mad_title_style2">Кайло Рен</h3>
-                            <span> Founder and CEO</span>
+                            <h3 className="mad_title_style2">Константин Сминов</h3>
                           </div>
                         </blockquote>
                         {/* /Carousel Item */}
@@ -49,11 +56,14 @@ class Testimonials extends React.Component {
                         {/* Carousel Item */}
                         <blockquote>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod dignissim massa ut venenatis. Vivamus eleifend sem id ligula sollicitudin feugiat.
+                            Специалисты из этой компании делали у меня комплексную отделку квартиры в новостройке.
+                            Учли все мои пожелания. Не тянули с проектом и сметой.
+                            Помогли разобраться с вопросами по теплому полу,
+                            когда я не мог выбрать между водяным и электрическим.
+                            Отдельно скажу о ценах - соотношение с качеством отличное.
                           </p>
                           <div className="mad_author style2">
-                            <h3 className="mad_title_style2">Хан Соло</h3>
-                            <span> Founder and CEO</span>
+                            <h3 className="mad_title_style2">Михаил Сулейманов</h3>                            
                           </div>
                         </blockquote>
                         {/* /Carousel Item */}
